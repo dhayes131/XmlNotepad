@@ -1,1 +1,15 @@
+import boto3
 
+mturk = boto3.client('mturk', 
+                      region_name='us-east-1', 
+                      endpoint_url='https://mturk-requester-sandbox.us-east-1.amazonaws.com')
+                      
+qual_response = mturk.create_qualification_type(
+                        Name='Language Proficiency Test',
+                        Keywords='test, qualification, sample, language, boto',
+                        Description='This is a brief language proficiency test',
+                        QualificationTypeStatus='Active',
+                        Test=questions,
+                        AnswerKey=answers,
+                        TestDurationInSeconds=300)
+                        
