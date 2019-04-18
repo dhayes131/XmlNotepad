@@ -1,1 +1,56 @@
-
+<QuestionForm xmlns= ## need updated URL >  
+  <Question>
+      <QuestionIdentifier>self_report</QuestionIdentifier>
+      <DisplayName>Q1</DisplayName>
+      <IsRequired>true</IsRequired>
+      <QuestionContent>
+        <Text> Which statement is in French? </Text>
+      </QuestionContent>
+      <AnswerSpecification>
+        <SelectionAnswer>
+          <StyleSuggestion>radiobutton</StyleSuggestion>
+          <Selections>
+            <Selection>
+              <SelectionIdentifier>rg</SelectionIdentifier>
+              <Text>The hat is green.</Text>
+            </Selection>
+            <Selection>
+              <SelectionIdentifier>by</SelectionIdentifier>
+              <Text>El sombrero es verde.</Text>
+            </Selection>
+            <Selection>
+              <SelectionIdentifier>other</SelectionIdentifier>
+              <Text>Le chapeau est vert.</Text>
+            </Selection>
+          </Selections>
+        </SelectionAnswer>
+      </AnswerSpecification>
+  </Question>
+   <Question>
+      <QuestionIdentifier>self_report</QuestionIdentifier>
+      <DisplayName>Q1</DisplayName>
+      <IsRequired>true</IsRequired>
+      <QuestionContent>
+        <Text> Which sentence is correct? </Text>
+      </QuestionContent>
+      <AnswerSpecification>
+        <SelectionAnswer>
+          <StyleSuggestion>radiobutton</StyleSuggestion>
+          <Selections>
+            <Selection>
+              <SelectionIdentifier>rg</SelectionIdentifier>
+              <Text>Mon ami m'a jeté le ballon de foot.</Text>
+            </Selection>
+            <Selection>
+              <SelectionIdentifier>by</SelectionIdentifier>
+              <Text>Mon ami jeté m'a le ballon de foot.</Text>
+            </Selection>
+            <Selection>
+              <SelectionIdentifier>other</SelectionIdentifier>
+              <Text>Mon ami le ballon de foot m'a jeté.</Text>
+            </Selection>
+          </Selections>
+        </SelectionAnswer>
+      </AnswerSpecification>
+  </Question>
+  </QuestionForm>
