@@ -1,5 +1,4 @@
-<QuestionForm xmlns= ## need updated URL >  
-  <Question>
+<QuestionForm xmlns='http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2005-10-01/QuestionForm.xsd'>  <Question>
       <QuestionIdentifier>self_report</QuestionIdentifier>
       <DisplayName>Q1</DisplayName>
       <IsRequired>true</IsRequired>
