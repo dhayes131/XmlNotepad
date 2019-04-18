@@ -1,0 +1,56 @@
+<QuestionForm xmlns= ## need updated URL >  
+  <Question>
+      <QuestionIdentifier>self_report</QuestionIdentifier>
+      <DisplayName>Q1</DisplayName>
+      <IsRequired>true</IsRequired>
+      <QuestionContent>
+        <Text> Which statement is in English? </Text>
+      </QuestionContent>
+      <AnswerSpecification>
+        <SelectionAnswer>
+          <StyleSuggestion>radiobutton</StyleSuggestion>
+          <Selections>
+            <Selection>
+              <SelectionIdentifier>rg</SelectionIdentifier>
+              <Text>The hat is green.</Text>
+            </Selection>
+            <Selection>
+              <SelectionIdentifier>by</SelectionIdentifier>
+              <Text>El sombrero es verde.</Text>
+            </Selection>
+            <Selection>
+              <SelectionIdentifier>other</SelectionIdentifier>
+              <Text>Le chapeau est vert.</Text>
+            </Selection>
+          </Selections>
+        </SelectionAnswer>
+      </AnswerSpecification>
+  </Question>
+   <Question>
+      <QuestionIdentifier>self_report</QuestionIdentifier>
+      <DisplayName>Q1</DisplayName>
+      <IsRequired>true</IsRequired>
+      <QuestionContent>
+        <Text> Which sentence is correct? </Text>
+      </QuestionContent>
+      <AnswerSpecification>
+        <SelectionAnswer>
+          <StyleSuggestion>radiobutton</StyleSuggestion>
+          <Selections>
+            <Selection>
+              <SelectionIdentifier>rg</SelectionIdentifier>
+              <Text>My friend threw me the soccer ball.</Text>
+            </Selection>
+            <Selection>
+              <SelectionIdentifier>by</SelectionIdentifier>
+              <Text>My friend me threw the soccer ball.</Text>
+            </Selection>
+            <Selection>
+              <SelectionIdentifier>other</SelectionIdentifier>
+              <Text>My friend soccer ball threw me.</Text>
+            </Selection>
+          </Selections>
+        </SelectionAnswer>
+      </AnswerSpecification>
+  </Question>
+  </QuestionForm>
